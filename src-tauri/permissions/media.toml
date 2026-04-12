@@ -1,0 +1,12 @@
+[[permission]]
+identifier = "allow-media-commands"
+description = "Permissions for OverAI media import, testing, and timeline operations"
+
+[permission.commands]
+allow = [
+    "import_media_asset", 
+    "test_backend_connection",
+    "generate_frame_strip",
+    "generate_waveform",
+    "export_timeline"
+]

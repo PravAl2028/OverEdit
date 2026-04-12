@@ -1,0 +1,9 @@
+[[permission]]
+identifier = "allow-fs-read-thumbnails"
+description = "Allows reading generated thumbnails from the temp directory"
+
+[[permission.scope.allow]]
+path = "$TEMP/overai/thumbnails/*"
+
+[permission.commands]
+allow = ["read"]
